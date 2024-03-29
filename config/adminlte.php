@@ -14,7 +14,7 @@ return [
     |
     */
 
-    'title' => 'Employes Management System',
+    'title' => 'NDP',
     'title_prefix' => '',
     'title_postfix' => '',
 
@@ -45,7 +45,7 @@ return [
     |
     */
 
-    'logo' => '<b>Employes</b>',
+    'logo' => '<b>NDP</b>',
     'logo_img' => 'vendor/adminlte/dist/img/AdminLTELogo.png',
     'logo_img_class' => 'brand-image img-circle elevation-3',
     'logo_img_xl' => null,
@@ -188,7 +188,7 @@ return [
     */
 
     'use_route_url' => false,
-    'dashboard_url' => 'home',
+    'dashboard_url' => 'Ecart',
     'logout_url' => 'logout',
     'login_url' => 'login',
     'register_url' => 'register',
@@ -232,18 +232,68 @@ return [
         ],
 
         // Sidebar items:
+        
+        
         [
-            'text' => 'Employes',
-            'icon' => 'fas fa-fw fa-arrow-alt-circle-right',
+            'text' => 'Note De Peche',
+            'icon' => 'fas fa-fish',
             'submenu' => [
                 [
-                    'text' => 'List of employes',
-                    'url'  => 'admin/employes',
+                    'text' => 'List Des NDP',
+                    'url'  => 'NDP',
                     'icon' => 'fas fa-fw fa-list',
                 ],
                 [
-                    'text' => 'Create',
-                    'url'  => 'admin/employes/create',
+                    'text' => 'Insert New NDP',
+                    'url'  => 'NDP/insert',
+                    'icon' => 'fas fa-fw fa-plus',
+                ]
+                
+               
+            ],
+        ],
+        [
+            'text' => 'Decharge',
+            'icon' => 'fas fa-ship',
+            'submenu' => [
+                [
+                    'text' => 'List Des DECH',
+                    'url'  => 'DECH',
+                    'icon' => 'fas fa-fw fa-list',
+                ],
+                [
+                    'text' => 'Insert New DECH',
+                    'url'  => 'DECH/insert',
+                    'icon' => 'fas fa-fw fa-plus',
+                ],
+               
+            ],
+        ],
+        [
+            'text' => 'Ecart',
+            'icon' => 'fas fa-exchange-alt',
+            'submenu' => [
+                [
+                    'text' => 'List Des Ecarts',
+                    'url'  => 'Ecart',
+                    'icon' => 'fas fa-fw fa-list',
+                ],
+                
+               
+            ],
+        ],
+        [
+            'text' => 'Export',
+            'icon' => 'fas fa-file-export',
+            'submenu' => [
+                [
+                    'text' => 'List Des Exports',
+                    'url'  => 'Export',
+                    'icon' => 'fas fa-fw fa-list',
+                ],
+                [
+                    'text' => 'insert Export',
+                    'url'  => 'Export/newexport',
                     'icon' => 'fas fa-fw fa-user-plus',
                 ],
             ],
