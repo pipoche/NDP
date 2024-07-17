@@ -9,7 +9,7 @@
 
 @section('content')
     <div class="d-flex justify-content-center">
-        <h1>Ecart du Maree : 334-2024</h1>
+        <h1>Ecart du Maree : {{$maree}}</h1>
 
     </div>
 
@@ -51,7 +51,7 @@
             </div>
 
 
-            <table class="table   data-table1" style="min-width: 100%" id="myTable">
+            <table class="table   data-table" style="min-width: 100%" id="myTable">
                 <thead>
                     <tr>
                         <th class="text-center costum-color">ESPECE</th>
@@ -172,5 +172,7 @@
 
             // Call window.print() to print the focused table
         }
+
+        
     </script>
 @stop

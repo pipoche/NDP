@@ -46,11 +46,11 @@ return [
     */
 
     'logo' => '<b>NDP</b>',
-    'logo_img' => 'vendor/adminlte/dist/img/AdminLTELogo.png',
+    'logo_img' => 'vendor/adminlte/dist/img/JAMAL.png',
     'logo_img_class' => 'brand-image img-circle elevation-3',
     'logo_img_xl' => null,
     'logo_img_xl_class' => 'brand-image-xs',
-    'logo_img_alt' => 'Employes Management System',
+    'logo_img_alt' => 'JAMLA IMOBILIERES',
 
     /*
     |--------------------------------------------------------------------------
@@ -188,7 +188,7 @@ return [
     */
 
     'use_route_url' => false,
-    'dashboard_url' => 'Ecart',
+    'dashboard_url' => '/admin/NDP',
     'logout_url' => 'logout',
     'login_url' => 'login',
     'register_url' => 'register',
@@ -227,7 +227,7 @@ return [
     'menu' => [
         // Navbar items:
         [
-            'type'         => 'fullscreen-widget',
+            'type' => 'fullscreen-widget',
             'topnav_right' => true,
         ],
 
@@ -240,12 +240,12 @@ return [
             'submenu' => [
                 [
                     'text' => 'List Des NDP',
-                    'url'  => 'NDP',
+                    'url'  => 'admin/NDP',
                     'icon' => 'fas fa-fw fa-list',
                 ],
                 [
                     'text' => 'Insert New NDP',
-                    'url'  => 'NDP/insert',
+                    'url'  => 'admin/NDP/insert',
                     'icon' => 'fas fa-fw fa-plus',
                 ]
                 
@@ -258,12 +258,12 @@ return [
             'submenu' => [
                 [
                     'text' => 'List Des DECH',
-                    'url'  => 'DECH',
+                    'url'  => 'admin/DECH',
                     'icon' => 'fas fa-fw fa-list',
                 ],
                 [
                     'text' => 'Insert New DECH',
-                    'url'  => 'DECH/insert',
+                    'url'  => 'admin/DECH/insert',
                     'icon' => 'fas fa-fw fa-plus',
                 ],
                
@@ -275,7 +275,7 @@ return [
             'submenu' => [
                 [
                     'text' => 'List Des Ecarts',
-                    'url'  => 'Ecart',
+                    'url'  => 'admin/Ecart',
                     'icon' => 'fas fa-fw fa-list',
                 ],
                 
@@ -288,12 +288,12 @@ return [
             'submenu' => [
                 [
                     'text' => 'List Des Exports',
-                    'url'  => 'Export',
+                    'url'  => 'admin/Export',
                     'icon' => 'fas fa-fw fa-list',
                 ],
                 [
                     'text' => 'insert Export',
-                    'url'  => 'Export/newexport',
+                    'url'  => 'admin/Export/newexport',
                     'icon' => 'fas fa-fw fa-user-plus',
                 ],
             ],
